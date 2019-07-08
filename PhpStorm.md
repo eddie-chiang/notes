@@ -35,6 +35,8 @@
 * **[PHP Annotations](https://github.com/Haehnchen/idea-php-annotation-plugin)** - PhpStorm 注释
 * **[BrowseWordAtCaret](https://plugins.jetbrains.com/plugin/201-browsewordatcaret)** - 高亮选中的词语
 * **[PhpStorm-Plugins](https://github.com/zgh-yuanshang/PhpStorm-Plugins)** - 排序 php 类中的 use 包
+* **[leetcode-editor](https://github.com/shuzijun/leetcode-editor)** - leetcode
+* **[SonarLint](https://plugins.jetbrains.com/plugin/7973-sonarlint)** - 综合检查代码质量，可持续集成
 
 ## 优化 PhpStorm 速度
 
@@ -42,7 +44,7 @@
 
 PHPStorm 依赖 java 运行环境，说白了也就是 java 虚拟机，找到`help > Edit Custom VM Options`，然后在这个文件里可以根据需要增加或减少 PHPstorm 使用的内存
 
-```
+```plain
 -Xms500m
 -Xmx1500m
 
@@ -59,7 +61,7 @@ PHPStorm 依赖 java 运行环境，说白了也就是 java 虚拟机，找到`h
 
 进入`help > Edit Custom Properties`来设置 PHPStorm 的自定义属性.
 
-```
+```plain
 editor.zero.latency.typing=true
 ```
 
